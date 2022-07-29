@@ -1,0 +1,17 @@
+﻿HashSetTest
+SetEx
+
+Bingo
+
+Member
+HashSetExample
+
+MemberHashSet
+MemberHashSetTest
+예외발생 : hashSet임에도 중복이 허용됨
+
+Member의 hashSet과 equals override후
+MemberHashSetTest 컴파일
+
+
+

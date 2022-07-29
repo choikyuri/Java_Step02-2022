@@ -1,0 +1,8 @@
+InputStreamReaderTest
+
+FileCopyTest
+
+BufferedStreamTest
+
+DataStreamTest
+

@@ -1,0 +1,25 @@
+﻿이론설명
+C:\Program Files\Java\jdk-14.0.1\lib\src\java.base\java
+라이브러리 살펴보기
+
+Collection ->f1
+ArrayList ->f1
+--------------------------------
+ArrayEx
+
+ArrayEx2
+
+Person
+PersonManager
+PersonMain
+
+
+Member (toString 까지)
+MemberArrayList
+MemberArrayListTest
+
+UserInfo
+UserMain
+
+----------------------------------
+

@@ -1,0 +1,11 @@
+RandomAccessFileTest
+
+FileTest
+
+
+RandomAccessFile
+객체 하나로 쓰기와 읽기 둘 다 할 수 있음. 
+사실 RandomAccessFile 클래스는 DataInput, 
+그리고 DataOutput을 둘다 implements 했기 때문에 읽기, 쓰기가 가능 
+DataStream 중에 DataInputStream클래스가 DataInput, 
+DataOutputStream클래스가 DataOutput을 구현

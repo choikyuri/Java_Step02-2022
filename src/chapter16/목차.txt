@@ -1,0 +1,44 @@
+﻿MyArrayTest1
+MyArrayTest2
+
+GenEX
+GenEX_Main
+
+Gen
+GenMain                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+------------------------------
+Material
+Plastic
+Powder
+
+ThreePrintPlastic (각각 만드는것은 불필여성 증명)
+ThreeprintPowder (각각 만드는것은 불필여성 증명)
+
+ThreeDPrinter (Object 하나로 통일)
+ThreeDPrinterTest(다운캐스팅의 불편)
+----------------------------------
+제네릭화
+GenericPrinter
+GenericPrinterTest
+--------------------------------
+-GenericPrinterTest(water추가)
+-Water
+-Material (추상클래스)
+-Powder와 Plastic에서 상속후 재구현
+-GenericPrinter 수정
+(public class GenericPrinter<T extends Material>)
+-GenericPrinterTest (water 사용안됨)
+--------------------------
+GenericPrinter 메서드 추가
+public void printing() {
+	material.doPrinting();
+	}
+
+GenericPrinterTest에서 코드 추가
+powderPrinter.printing();
+plasticPrinter.printing();
+-------------------------------------------
+
+Point
+GenericMethod
+
